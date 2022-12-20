@@ -1,0 +1,21 @@
+.myInput {
+	min-width: 160px;
+	max-width: 345px;
+}
+
+.mySelectSearch {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 26px;
+}
+
+.main {
+	flex: 1 0 auto;
+	margin-top: 1rem;
+}
+
+@media (max-width:605px) {
+	.mySelectSearch {
+		flex-direction: column;
+	}
+}
